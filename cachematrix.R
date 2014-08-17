@@ -1,6 +1,6 @@
 "
 Functions in this script inverses a square matrix assuming that the matrix
-supplied is always invertible. Computing the inverse of a square matrix can be
+supplied is always invertible. Computing the inverse of a square matrix is
 done with the solve function in R.
 "
 
@@ -37,7 +37,7 @@ makeCacheMatrix <- function(x = matrix()) {
 cacheSolve computes the inverse of the special matrix returned by
 makeCacheMatrix above. If the inverse has already been calculated return the
 same inverse value. But if the inverse has not been calculated earlier(i.e is
-null), then it calculated the inverse using solve function, sets the inverse in
+null), then it calculates the inverse using solve function, sets the inverse in
 the special matrix object and returns the inverse.
 "
 
